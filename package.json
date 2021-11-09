@@ -1,0 +1,32 @@
+{
+  "name": "NodeJS-QA",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "forever -w index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://azquint@github.com/azquint/NodeJS-QA.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://azquint@github.com/azquint/NodeJS-QA#README",
+  "dependencies": {
+    "async": "^1.4.2",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.3.5",
+    "express": "^4.15.4",
+    "forever": "^4.0.1",
+    "handlebars": "^4.0.10",
+    "hbs": "^4.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "jest": "^27.3.1"
+  }
+}
